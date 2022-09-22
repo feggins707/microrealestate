@@ -33,7 +33,12 @@ The main functionalities are:
 
 ### Prerequisite
 - [Docker and docker-compose installed](https://docs.docker.com/compose/install/)
+```shell
+$ which python
+  /usr/bin/python
 
+$ virtualenv -p /usr/bin/python2 venv
+```
 > The `mre` executable is used for building and running the application. If running on Windows use `mre.exe` on Mac `mre-macos`.
 
 ### Clone the GitHub repository
